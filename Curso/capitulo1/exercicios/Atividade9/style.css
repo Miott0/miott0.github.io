@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+main{
+    background-image:url(nuvem.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.paragrafo {
+    background-color: aliceblue;
+}
+
+
+article p{
+   color: blue;
+   text-align: center;
+}
+
+
+
+#segundoH1{
+    font-family: 'Roboto', sans-serif;
+    
+}
