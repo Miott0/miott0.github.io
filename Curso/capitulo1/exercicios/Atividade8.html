@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Formulário Avançado</title>
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome">
+          &nbsp;
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <br>
+        <div>
+            <label>Nascimento:</label>
+            <input id="date" type="date">
+        </div>
+        <br>
+        <div>
+          <label for="rg">RG:</label>
+          <input type="text" id="rg" name="rg" size="14" maxlength="9">
+        </div>
+        <br>
+        <div>
+          <label>CPF:</label>
+          <input type="text" name="cpf_1" size="14" maxlength="9"> - 
+          <input type="text" name="cpf_2" size="4" maxlength="2">
+        </div>
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Dados do Endereço</legend>
+        <div>
+          <label for="rua">Rua:</label>
+          <input type="text" id="rua" name="rua">
+          &nbsp;
+          <label for="numero">Número:</label>
+          <input type="text" id="numero" name="bairro" size="8">
+        </div>
+        <br>
+        <div>
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairro" name="bairro">
+        </div>
+        <br>
+        <div>
+          <label for="estado">Estado:</label>
+          <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="SP">São Paulo</option>
+            <option value="Rj">Rio de Janeiro</option>
+             <option value="MG">Minas Gerais</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade">
+        </div>
+        <br>
+        <div>
+          <label>CEP:</label>
+          <input type="text" name="cep_1" size="7" maxlength="5"> - 
+          <input type="text" name="cep_2" size="4" maxlength="3">
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Dados de Login</legend>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+          <label for="imagem_perfil">Imagem de Perfil:</label>
+          <input type="file" id="imagem_perfil" name="imagem_perfil">
+        </div>
+        <br>
+        <div>
+          <label for="login_usuario">Login de usuário:</label>
+          <input type="text" id="login_usuario" name="login_usuario">
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Dados de Login:</legend>
+        <div>
+          <label for="email2">Email:</label>
+          <input type="email" id="email2" name="email2">
+        </div>
+        <br>
+        <div>
+          <label for="imagem_perfil2">Image Perfil:</label>
+          <input type="file" id="imagem_perfil2" name="imagem_perfil2">
+        </div>
+        <br>
+        <div>
+          <label for="login_usuario2">Login de usuário:</label>
+          <input type="text" id="login_usuario2" name="login_usuario2">
+        </div>
+        <br>
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha">
+        </div>
+        <br>
+        <div>
+          <label for="confirmacao_senha">Confirme a senha:</label>
+          <input type="password" name="confirmacao_senha" id="confirmacao_senha">
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Pesquisa de Interesse</legend>
+        
+        <div style="display: flex; align-items: center;">
+          <label>Voce deseja trabalhar como Webmaster?</label>
+          <div style="margin-left: 20px;">
+            <div>
+              <input type="radio" name="trabalhar_webmaster" id="sim">
+              <label for="sim">Sim</label>
+            </div>
+            <div>
+              <input type="radio" name="trabalhar_webmaster" id="nao">
+              <label for="nao">Não</label>
+            </div>
+            <div>
+              <input type="radio" name="trabalhar_webmaster" id="talvez">
+              <label for="talvez">Talvez</label>
+            </div>
+            <div>
+              <input type="radio" name="trabalhar_webmaster" id="quem_sabe">
+              <label for="quem_sabe">Quem Sabe</label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div style="display: flex; align-items: center;">
+          <label>O que você deseja aprender?</label>
+          <div style="margin-left: 95px;">
+            <div>
+              <input type="checkbox" name="deseja_aprender" id="html">
+              <label for="html">HTML</label>
+            </div>
+            <div>
+              <input type="checkbox" name="deseja_aprender" id="css">
+              <label for="css">CSS</label>
+            </div>
+            <div>
+              <input type="checkbox" name="deseja_aprender" id="javascript">
+              <label for="javascript">Javascript</label>
+            </div>
+            <div>
+              <input type="checkbox" name="deseja_aprender" id="django">
+              <label for="django">Django</label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div style="display: flex; align-items: center;">
+          <label for="comentario">Deixe seu comentário:</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="8" style="margin-left: 140px;"></textarea>
+        </div>
+      </fieldset>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+    
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <a href="../../sumario.html">Voltar para sumario</a>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+  </body>
+</html>
