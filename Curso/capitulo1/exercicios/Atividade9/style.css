@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+
+nav li, a:link{
+    color: blue;
+} 
+ nav li,a:visited{
+    color:maroon;
+}
+
+nav li, a:active{
+    color: darkgreen;
+} 
+
+nav a:hover{
+    background-color: yellow;
+}
+
 nav li::before{
     content:"\279D";
 }
 
 nav li:before {
     margin-right: 10px;
+}
+
+nav li::after{
+
 }
 
 main{
