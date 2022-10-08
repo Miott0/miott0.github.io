@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+nav li::before{
+    content:"\279D";
+}
+
+nav li:before {
+    margin-right: 10px;
+}
+
 main{
     background-image:url(nuvem.jpg);
     background-repeat: no-repeat;
