@@ -1,0 +1,42 @@
+﻿body
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#lista-vertical {
+  width: 140px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#lista-vertical ul {
+  flex-direction: column;
+}
+
+nav li {
+  background-color: lightgray;
+}
+
+nav li:hover {
+  background: url('Sprite_g.jpg');
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 15px 20px;
+}
