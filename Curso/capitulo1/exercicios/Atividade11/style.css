@@ -1,0 +1,62 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+}
+
+main {
+  display: flex;
+  padding: 0 20px;
+}
+
+nav {
+    flex-basis: 150px;
+    flex-grow: 0;
+	flex-shrink: 0;
+    border-right: 1px solid gray;
+    padding: 15px 20px 0 0;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1px 0;
+  flex-direction: column; 
+}
+
+nav li {
+  background-color: lightgray;
+}
+
+nav li:hover {
+  background: url('Sprite_g.jpg');
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+  color: rgb(49, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  padding: 30px 0 20px 15px;
+}
+
+section p {
+  margin: 15px 0;
+
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+}
