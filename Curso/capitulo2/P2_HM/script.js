@@ -23,6 +23,6 @@ window.onload = () =>{
             preco+=300;
         }
 
-        alert(`O custo da locação é R$ ${preco}`);
+        alert(`Valor de locação é R$ ${preco}`);
     }
 }
